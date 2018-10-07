@@ -7,7 +7,8 @@ body {
 }
 /* Container */
 .container {
-	width: 90%;
+	width: 100%;
+	height: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFFFFF;
@@ -26,9 +27,9 @@ header {
 	letter-spacing: 4px;
 	margin-right: auto;
 	text-align: center;
-	padding-top: 15px;
 	line-height: 2em;
 	font-size: 22px;
+	margin-bottom: 0px;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -92,9 +93,7 @@ header {
 	padding-bottom: 35px;
 }
 .column {
-	width: 50%;
-	text-align: center;
-	padding-top: 30px;
+	width: 27%;
 	float: left;
 }
 .intro .column h3 {
@@ -178,6 +177,7 @@ footer {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
 
 /* Mobile */
 @media (max-width: 320px) {
