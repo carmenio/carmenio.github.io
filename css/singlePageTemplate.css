@@ -29,11 +29,12 @@ header {
 	color: #fff;
 	font-weight: bold;
 	text-align: undefined;
-	width: 10%;
+	width: 300px;
 	float: left;
-	margin-top: 15px;
-	margin-left: 25px;
+	margin-top: 2.5px;
+	margin-left: 10px;
 	letter-spacing: 4px;
+
 }
 nav {
 	float: right;
@@ -79,6 +80,13 @@ ul li:hover a {
 	float: top;
 	padding-top: 150px;
 	padding-bottom: 150px;
+}
+.Logo {
+	float: right;
+	padding-right: 3%;
+	padding-top: 2%;
+	
+	
 }
 .light {
 	font-weight: bold;
