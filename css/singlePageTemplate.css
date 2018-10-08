@@ -22,8 +22,8 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+	background-color: #2B2B2B;
+	border-bottom: 1px solid #0f0f0f;
 }
 .logo {
 	color: #fff;
@@ -38,7 +38,6 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
 	text-align: right;
 	margin-right: 25px;
 }
@@ -51,7 +50,7 @@ nav ul li {
 	color: #FFFFFF;
 	font-size: 14px;
 	text-align: left;
-	margin-right: 25px;
+	margin-right: 15px;
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
@@ -72,6 +71,9 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+.media{
+	align-content: center;
+}
 /* Hero Section */
 .hero {
 	background: url('../images/Insta Photo-4.png');
@@ -82,9 +84,9 @@ ul li:hover a {
 	padding-bottom: 150px;
 }
 .Logo {
-	float: right;
-	padding-right: 3%;
-	padding-top: 2%;
+	float: left;
+	padding-left: 4%;
+	padding-top: 1%;
 	
 	
 }
@@ -207,9 +209,8 @@ footer .footer_column p {
 }
 .cards {
 	width: 100%;
-	height: auto;
 	max-width: 400px;
-	max-height: 200px;
+	max-height: 400px;
 }
 footer .footer_column p {
 	padding-left: 30px;
@@ -221,15 +222,16 @@ footer .footer_column p {
 	margin-right: 20px;
 }
 .button {
-	width: 200px;
+	width: 40px;
+	height: 40px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
 	text-align: center;
 	vertical-align: middle;
 	border-radius: 0px;
@@ -342,7 +344,7 @@ nav ul li {
 	text-align: center;
 }
 .banner {
-	background-color: #2D9AB7;
+	background-color: #2B2B2B;
 	background-image: none;
 }
 .tagline {
