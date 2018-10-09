@@ -29,7 +29,7 @@ header {
 	color: #fff;
 	font-weight: bold;
 	text-align: undefined;
-	width: 300px;
+	width: 250px;
 	float: left;
 	margin-top: 2.5px;
 	margin-left: 10px;
@@ -60,7 +60,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #2B2B2B;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -76,7 +76,7 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background: url('../images/Insta Photo-4.png');
+	background-image: url('../images/Insta Photo-4.png');
 	background-size: cover;
 	background-attachment: fixed;
 	float: top;
@@ -85,8 +85,9 @@ ul li:hover a {
 }
 .Logo {
 	float: left;
-	padding-left: 4%;
-	padding-top: 1%;
+	padding-left: 18px;
+	padding-top: 1px;
+	padding-right: 80%;
 	
 	
 }
@@ -120,6 +121,36 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
+	float: center;
+}
+.PhotosAndVideosTable {
+	float: center;
+	padding-left: auto;
+
+
+}
+.ButtonsFoP-V {
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.ButtonsFoP-V:hover {
+	background-color: #d8d8d8;
+	color: #C4C4C4;
+	cursor: pointer;
 }
 /* Stats Gallery */
 .stats {
@@ -149,7 +180,7 @@ ul li:hover a {
 	margin-right: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
-	color: #52BAD5;
+	color: #2B2B2B;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
@@ -160,7 +191,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
+	background-color: #2B2B2B;
 	background-image: url(../images/parallax.png);
 	height: 400px;
 	background-attachment: fixed;
@@ -271,6 +302,7 @@ footer {
 }
 .hidden {
 	display: none;
+	float: center;
 }
 
 /* Mobile */
@@ -278,6 +310,7 @@ footer {
 .logo {
 	width: 100%;
 	text-align: center;
+	float: center;
 	margin-top: 13px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -304,7 +337,7 @@ nav ul li {
 }
 .text_column {
 	width: 100%;
-	text-align: justify;
+	text-align: center;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -350,9 +383,13 @@ nav ul li {
 .tagline {
 	margin-top: 20px;
 	line-height: 22px;
+	opacity: 30%;
+}
+.search{
+	opacity: 30%;
 }
 .hero_header {
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-right: 10px;
 	line-height: 22px;
 	text-align: center;
@@ -364,11 +401,11 @@ nav ul li {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 5px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
+	color: #FFFFFF;
 }
 .container header nav {
 	margin-top: 0px;
@@ -379,7 +416,7 @@ nav ul li {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #52bad5;
+	background: #2B2B2B;
 }
 header nav ul {
 	padding: 0px;
