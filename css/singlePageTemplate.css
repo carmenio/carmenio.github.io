@@ -21,7 +21,7 @@ body {
 /* Navigation */
 header {
 	width: 100%;
-	height: 5%;
+	height: 6%;
 	background-color: #2B2B2B;
 	border-bottom: 1px solid #0f0f0f;
 }
@@ -131,6 +131,26 @@ ul li:hover a {
 	padding-right: 20px;
 	color: #A3A3A3;
 }
+.text_column2 {
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
+.text_column3 {
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
 .about {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -143,7 +163,7 @@ ul li:hover a {
 
 
 }
-.ButtonsFoP-V {
+.ButtonsFoP {
 	margin-top: 4px;
 	margin-right: auto;
 	margin-bottom: auto;
@@ -161,7 +181,54 @@ ul li:hover a {
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
-.ButtonsFoP-V:hover {
+.ButtonsFoP:hover {
+	background-color: #d8d8d8;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.ButtonsFoV {
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.ButtonsFoV:hover {
+	background-color: #d8d8d8;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.ButtonsFoV2 {
+	display: none;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.ButtonsFoV2:hover {
 	background-color: #d8d8d8;
 	color: #C4C4C4;
 	cursor: pointer;
@@ -320,215 +387,409 @@ footer {
 }
 
 /* Mobile */
-@media (max-width: 320px) {
-.logo {
+@media (max-width : 400px ) {
+	.container {
 	width: 100%;
-	text-align: center;
-	float: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	}
+	.text_column2 {
+		display: none;
+	}
+	.text_column {
+		display: none;
+	}
+	.ButtonsFoV {
+		display: none;
+	}
+	.ButtonsFoV2 {
+		display: flow-root;
+	}
+	.ButtonsFoP {
+		display: flow-root;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin-top: 5px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		color: #FFFFFF;
+	}
+	.container header nav {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		float: none;
+		overflow: auto;
+		display: inline-block;
+		background: #2B2B2B;
+	}
+	header nav ul {
+		padding: 0px;
+		float: none;
+	}
+	nav ul li {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.text_column {
+		width: 100%;
+		text-align: center;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+	}
+	.thumbnail {
+		width: 100%;
+	}
+	.footer_column {
+		width: 100%;
+		margin-top: 0px;
+	}
+	.parallax {
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 40%;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		width: 100%;
+		font-size: 18px;
+	}
+	.parallax_description {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		width: 90%;
+		margin-top: 25px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 12px;
+		float: none;
+		text-align: center;
+	}
+	.banner {
+		background-color: #2B2B2B;
+		background-image: none;
+	}
+	.tagline {
+		margin-top: 20px;
+		line-height: 22px;
+		opacity: 30%;
+	}
+	.search{
+		opacity: 30%;
+	}
+	.hero_header {
+		padding-left: 0px;
+		padding-right: 10px;
+		line-height: 22px;
+		text-align: center;
+	}
 }
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	display: none;
-}
-header nav ul {
-}
-nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-}
-.text_column {
-	width: 100%;
-	text-align: center;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
-	float: none;
-	text-align: center;
-}
-.banner {
-	background-color: #2B2B2B;
-	background-image: none;
-}
-.tagline {
-	margin-top: 20px;
-	line-height: 22px;
-	opacity: 30%;
-}
-.search{
-	opacity: 30%;
-}
-.hero_header {
-	padding-left: 0px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
-}
+@media (min-width : 401px ) and ( max-width : 729px ) {
+	.container header nav {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		float: none;
+		display: none;
+	}
+	header nav ul {
+	}
+	nav ul li {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.text_column2 {
+		display: none;
+	}
+	.text_column {
+		display: none;
+	}
+	.ButtonsFoV {
+		display: none;
+	}
+	.ButtonsFoV2 {
+		display: flow-root;
+	}
+	.ButtonsFoP {
+		display: flow-root;
+	}
+	.HiddenTab {
+		display: none;
+	}
+	
+	
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin-top: 5px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		color: #FFFFFF;
+	}
+	.container header nav {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		float: none;
+		overflow: auto;
+		display: inline-block;
+		background: #2B2B2B;
+	}
+	header nav ul {
+		padding: 0px;
+		float: none;
+	}
+	nav ul li {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	
+	
+	
+	.text_column {
+		width: 100%;
+		text-align: left;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+	}
+	.thumbnail {
+		width: 100%;
+	}
+	.footer_column {
+		width: 100%;
+		margin-top: 0px;
+	}
+	.parallax {
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 40%;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		width: 100%;
+		font-size: 18px;
+	}
+	.parallax_description {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 30%;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.thumbnail {
+		width: 50%;
+	}
+	.parallax {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-top: 20%;
+	}
+	.parallax_description {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 30px;
+	}
+	.banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer_column {
+		width: 100%;
+	}
+	.media {
+		width: 100%;
+	}
 }
 
 /* Small Tablets */
-@media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 5px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #FFFFFF;
-}
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: #2B2B2B;
-}
-header nav ul {
-	padding: 0px;
-	float: none;
-}
-nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-.thumbnail {
-	width: 50%;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
-}
-.banner {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_column {
-	width: 100%;
-}
-.media {
-	width: 100%;
-}
+@media (min-width : 730px ) and ( max-width : 767px ){	
+
+	.logo {
+		width: 100%;
+		text-align: center;
+		margin-top: 5px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		color: #FFFFFF;
+	}
+	.container header nav {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		float: none;
+		overflow: auto;
+		display: inline-block;
+		background: #2B2B2B;
+	}
+	header nav ul {
+		padding: 0px;
+		float: none;
+	}
+	nav ul li {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.text_column {
+		width: 100%;
+		text-align: left;
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+	}
+	.text_column2 {
+		width: 100%;
+		text-align: left;
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+	}
+	.thumbnail {
+		width: 100%;
+	}
+	.footer_column {
+		width: 100%;
+		margin-top: 0px;
+	}
+	.parallax {
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 40%;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		width: 100%;
+		font-size: 18px;
+	}
+	.parallax_description {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		margin-top: 30%;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.thumbnail {
+		width: 50%;
+	}
+	.parallax {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-top: 20%;
+	}
+	.parallax_description {
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 30px;
+	}
+	.banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer_column {
+		width: 100%;
+	}
+	.media {
+		width: 100%;
+	}
 }
 
 /* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 50%;
-}
-.text_column {
+	.text_column {
+		width: 100%;
+	}
+	.thumbnail {
+		width: 50%;
+	}
+	.text_column {
+		width: 100%;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+	}
+	.text_column2 {
 	width: 100%;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -539,8 +800,8 @@ nav ul li {
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
-.banner {
-	margin-top: 0px;
-	padding-top: 0px;
-}
+	.banner {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
 }
