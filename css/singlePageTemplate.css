@@ -21,7 +21,7 @@ body {
 /* Navigation */
 header {
 	width: 100%;
-	height: 6%;
+	height: 5%;
 	background-color: #2B2B2B;
 	border-bottom: 1px solid #0f0f0f;
 }
@@ -34,7 +34,6 @@ header {
 	margin-top: 2.5px;
 	margin-left: 10px;
 	letter-spacing: 4px;
-
 }
 nav {
 	float: right;
@@ -385,6 +384,7 @@ footer {
 	display: none;
 	float: center;
 }
+
 
 /* Mobile */
 @media (max-width : 400px ) {
