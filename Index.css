@@ -215,10 +215,29 @@ src: url("Fonts/Audrey/Audrey-Normal.otf");
 	width: 98%;
 	text-align: center;
 }
-.Images img{
+.Images {
 	width: 280px;
 	height: 280px;
 	padding: 10px;
+	object-fit: cover;
+}
+.LazyImages {
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	object-fit: cover;
+}
+
+.Images:hover {
+	width: 210px;
+	height: 200px;
+	padding: 2px;
+	object-fit: cover;
+}
+.LazyImages:hover {
+	width: 210px;
+	height: 200px;
+	padding: 2px;
 	object-fit: cover;
 }
 
