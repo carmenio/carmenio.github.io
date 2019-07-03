@@ -5,9 +5,40 @@
 	<title>Chris' Portfolio</title>
 	<link rel="shortcut icon" type="image/png" href="../Images/Logos/Instagram logo Black.png">
 	<link href="Index.css" rel="stylesheet" type="text/css">
-	<script src="javascript/jquery-1.8.1.min.js" type="text/javascript"></script>
-	<script src="javascript/Photo Upload.js" type="text/javascript"></script>
-	<script src="javascript/Drop Down Menu.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script>
+	$(document).ready( function() {
+
+		const $spans = $("span");
+		const { length } = $spans;
+		$spans.each(function(i) {
+		  $(this).append("<img src='Images/With Out Logo/Insta Photo-" + (length - i) + ".JPG' />");
+		});
+	});
+	</script>
+	<script>
+	// JavaScript Document
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction(x) {
+	  document.getElementById("myDropdown").classList.toggle("show");
+	  x.classList.toggle("change");
+	}
+	// Close the dropdown menu if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.container')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+
+	</script>
 	<script>
 	document.addEventListener("DOMContentLoaded", function() {
 	  var lazyImages = [].slice.call(document.querySelectorAll("img.Images"));
