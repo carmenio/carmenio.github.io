@@ -427,19 +427,19 @@ top: 0px;
 	
 .Hero-Index {
   background-image: url("Images/Hero/Insta Photo-81.JPG");
-  height: 70%; 
+  height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Hero-Beach {
-  height: 70%; 
+  height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Hero-Film {
-  height: 70%; 
+  height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
