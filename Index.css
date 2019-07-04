@@ -400,7 +400,7 @@ top: 0px;
 /*---------------------------------Table-------------------------------*/
 
 
-@media (max-width:1030px) and (min-width: 700px){
+@media (max-width:1030px) and (min-width: 800px){
 	
 
 .Header {
@@ -449,7 +449,7 @@ top: 0px;
 
 /*--------------------------------Mobile-------------------------------*/
 
-@media (max-width: 699px){
+@media (max-width: 799px){
 
 .Header {
 	height: 80px;
