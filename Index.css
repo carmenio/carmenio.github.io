@@ -260,7 +260,7 @@ bottom: 0;
 -moz-transition: .5s ease-in-out;
 -o-transition: .5s ease-in-out;
 transition: .5s ease-in-out;
-width: 70%;
+width: auto;
 height: auto;
 overflow: visible;
 z-index: 5;
