@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -5,6 +6,16 @@
 	<link rel="shortcut icon" type="image/png" href="../Images/Logos/Instagram logo Black.png">
 	<link href="Index.css" rel="stylesheet" type="text/css">
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script>
+	$(document).ready( function() {
+
+		const $spans = $("span");
+		const { length } = $spans;
+		$spans.each(function(i) {
+		  $(this).append("<img src='Images/With Out Logo/Insta Photo-" + (length - i) + ".JPG' />");
+		});
+	});
+	</script>
 	<script>
 	// JavaScript Document
 	/* When the user clicks on the button, 
@@ -105,7 +116,12 @@
 		
 	<div name="main" class="Main">
 		
-		<img class="Images" src="Images/Images/With Out Logo/Small Images/Insta Photo-90.JPG" data-src="Images/Images/With Out Logo/Medium Images/Insta Photo-90.JPG" alt=""/>
+		
+		<img class="Images" src="https://raw.githubusercontent.com/carmenio/carmenio.github.io/master/Images/Images/With%20Out%20Logo/Small%20Images/Insta%20Photo-90.jpg" data-src="https://raw.githubusercontent.com/carmenio/carmenio.github.io/master/Images/Images/With%20Out%20Logo/Medium%20Images/Insta%20Photo-90.jpg" data-srcset="https://raw.githubusercontent.com/carmenio/carmenio.github.io/master/Images/Images/With%20Out%20Logo/Small%20Images/Insta%20Photo-90.jpg, https://raw.githubusercontent.com/carmenio/carmenio.github.io/master/Images/Images/With%20Out%20Logo/Medium%20Images/Insta%20Photo-90.jpg" alt=""/>
+		
+		
+		
+		<img class="Images" src="Images/Images/With Out Logo/Small Images/Insta Photo-90.JPG" data-src="Images/Images/With Out Logo/Medium Images/Insta Photo-90.JPG" data-srcset="Images/Images/With Out Logo/Small Images/Insta Photo-90.JPG, Images/Images/With Out Logo/Medium Images/Insta Photo-90.JPG" alt=""/>
 		<img class="Images" src="Images/Images/With Out Logo/Small Images/Insta Photo-89.JPG" data-src="Images/Images/With Out Logo/Medium Images/Insta Photo-89.JPG" data-srcset="Images/Images/With Out Logo/Small Images/Insta Photo-89.JPG, Images/Images/With Out Logo/Medium Images/Insta Photo-89.JPG" alt=""/>
 		<img class="Images" src="Images/Images/With Out Logo/Small Images/Insta Photo-88.JPG" data-src="Images/Images/With Out Logo/Medium Images/Insta Photo-88.JPG" data-srcset="Images/Images/With Out Logo/Small Images/Insta Photo-88.JPG, Images/Images/With Out Logo/Medium Images/Insta Photo-88.JPG" alt=""/>
 		
