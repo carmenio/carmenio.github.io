@@ -183,7 +183,7 @@ src: url("Fonts/Audrey/Audrey-Normal.otf");
 .Main {
 	left: 50%;
 	padding-top: 10px;
-	width: 100%;
+	width: 98%;
 	text-align: center;
 }
 .Images {
@@ -191,14 +191,12 @@ src: url("Fonts/Audrey/Audrey-Normal.otf");
 	height: 280px;
 	padding: 10px;
 	object-fit: cover;
-	display:none;
 }
 .LazyImages {
 	width: 280px;
 	height: 280px;
 	padding: 10px;
 	object-fit: cover;
-	display:none;
 }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
@@ -365,47 +363,6 @@ a.lightbox-close:after {
 	text-align: center;
 	margin: 0;
 }
-/*--------------------------------Load More-------------------------------*/
-
-.totop {
-    position: fixed;
-    bottom: 10px;
-    right: 20px;
-}
-.totop a {
-    display: none;
-}
-
-.LoadMore a:hover {
-    text-decoration: none;
-}
-#loadMore {
-    padding: 10px;
-    text-align: center;
-    background-color: #33739E;
-    color: #fff;
-    border-width: 0 1px 1px 0;
-    border-style: solid;
-    border-color: #fff;
-    box-shadow: 0 1px 1px #ccc;
-    transition: all 600ms ease-in-out;
-    -webkit-transition: all 600ms ease-in-out;
-    -moz-transition: all 600ms ease-in-out;
-    -o-transition: all 600ms ease-in-out;
-}
-#loadMore:hover {
-    background-color: #fff;
-    color: #33739E;
-}
-.LoadMore{
-	width: auto;
-	padding: 20px;
-}
-
-
-
-
-
 /*--------------------------------Footer-------------------------------*/
 
 .Footer {
@@ -576,4 +533,5 @@ a.lightbox-close:after {
 .Info-Text{
 	width: 100%;
 }
+
 
